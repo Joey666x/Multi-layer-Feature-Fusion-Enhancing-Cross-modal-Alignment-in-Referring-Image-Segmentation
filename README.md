@@ -46,16 +46,7 @@ bash run_scripts/test.sh
 
 If you want to visualize the results, simply modify the `visualize` to `True` in the config file. 
 
-# Demo
-You can use this command to visualize the segmentation map when working with your own images and text prompts.
-```shell
-python demo.py \
-    --config "config/refcoco/base.yaml" \
-    --ckpt "lagre_refcoco.pth" \
-    --img_path 'img/piece.png' \
-    --input_text 'left piece slice' \
-    --save_path 'img/left_piece_result.png'
-```
+
 
 # Acknowledgements
 
