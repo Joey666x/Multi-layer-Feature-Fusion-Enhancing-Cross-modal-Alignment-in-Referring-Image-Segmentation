@@ -3,7 +3,7 @@ from loguru import logger
 
 
 def build_segmenter(args):
-    model = DETRIS(args)
+    model = MMFRIS(args)
     backbone = []
     head = []
     neck = []
