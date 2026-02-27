@@ -32,7 +32,7 @@ def init_weights(module):
         module.bias.data.zero_()
 
 
-class DETRIS(nn.Module):
+class MMFRIS(nn.Module):
     def __init__(self, cfg):
         super().__init__()
         # Text Encoder
